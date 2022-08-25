@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: adc357aaf109d4f902e72f14b5a74173b5c1bfcd
+    hooks:
+      - id: pretty-format-golang
+        args:
+          - --autofix
